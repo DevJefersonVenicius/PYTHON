@@ -1,5 +1,2 @@
-x = input('Mostre o número que corresponde a x: ')
-
-número = input('O número informado foi: ')
-
-print("O número  que corresponde a x é: ", x)
+x = input('Escreva o número que corresponde a x: ')
+print("O número informado foi: ", x)
