@@ -1,6 +1,5 @@
-nota1 = input('Mostre a nota1: ')
-nota2 = input('Mostre a nota2: ')
-nota3 = input('Mostre a nota3: ')
-nota4 = input('Mostre a nota4: ')
-
-print()
+nota1 = input('Digite a nota1: ')
+nota2 = input('Digite a nota2: ')
+nota3 = input('Digite a nota3: ')
+nota4 = input('Digite a nota4: ')
+print('A media  das notas é: ', (int(nota1) + int(nota2) + int(nota3) + int(nota4)) / 4)
