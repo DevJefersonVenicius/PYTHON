@@ -1,6 +1,4 @@
 h = input('Digite a altura: ')
 b = input('Digite a base: ')
-a = (int(b) * int(h))
-dobro = (int(a) * 2 )
-print('A aréa do  quadrado é igual a: ', (a))
-print('O dobro da aréa é igual a: ', (dobro))
+print('A aréa do  quadrado é igual a: ', (int(b) * int(h)))
+print('O dobro da aréa é igual a: ', (int(b) * int(h) * 2))
