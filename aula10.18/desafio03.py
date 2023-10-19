@@ -1,2 +1,2 @@
-x = input('Escreva o número que corresponde a x: ')
-print("O número informado foi: ", x)
+numero = input('Escreva um número: ')
+print("O número informado foi: ", int(numero))
