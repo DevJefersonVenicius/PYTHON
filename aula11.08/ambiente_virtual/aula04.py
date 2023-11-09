@@ -1,5 +1,4 @@
 # Outra forma de INTERPOLAR
-
 nome = "Geisa"
 salario = 4500.99
 print(nome, "ganha um salario de R$", salario)

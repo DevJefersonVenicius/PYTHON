@@ -6,6 +6,7 @@
 # [i:f:p] = i - INICIO, f - FIM, p - PARSE
 
 nome = "Rodrigo José dos Santos Amaral Neto Junior"
+print(nome[0:23])
 print(nome[17:23])
 print(nome[-6:])
 print(nome[1::2])
