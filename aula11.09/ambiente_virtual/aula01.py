@@ -1,0 +1,11 @@
+nome = "Somos uma escola de tecnologia de informação que cria pontes entre pessoas, conhecimento e empresas. Ambiente que proporciona conexão, troca de conhecimentos e aprendizado compartilhando entre participantes, instrutores e empresas parceiras."
+print(nome[20:30])
+print(nome[34:44])
+print(nome[10:16])
+print(nome[54:60])
+print(nome[-10:-1])
+print(nome[-19:-11])
+print(nome[-33:-21])
+print(nome[61:66])
+print(nome[67:74])
+print(nome[76:88])
