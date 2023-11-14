@@ -1,7 +1,6 @@
 # voce pode ESCAPAR aspas duplas utilizando aspas simples
-# vale reforçar que isso só vale para aspas duplas, outros caracteres não
-# texto1 recebe o valor "Sou do"
-texto1 = '"Sou do"'
+# vale reforçar que isso só vale para aspas duplas, outros caracteres não.
+texto1 = '"Sou do"' # texto1 recebe o valor "Sou do"
 
 
 # texto2 recebe o valor "back-end"
