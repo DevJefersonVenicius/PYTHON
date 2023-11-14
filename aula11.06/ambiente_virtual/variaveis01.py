@@ -13,3 +13,5 @@ var01 = "A" * 10
 print(var01)
 var02 = 10 * "Jeferson "
 print(var02)
+# sep - é utlizado para separar objetos
+print(var02, var01, sep="/")
