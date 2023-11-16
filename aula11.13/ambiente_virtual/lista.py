@@ -5,6 +5,7 @@
 # remove - remove um objeto especificado da lista
 # pop - remove o ultimo elemento da lista
 # insert - adiciona um objeto no inico da lista
+# copy - copiar uma lista criando um novo endereço
 '''
 Lista = []
 print(lista, type(lista))
