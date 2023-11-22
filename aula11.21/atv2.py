@@ -3,6 +3,6 @@ num = range(100 + 1)
 for i in (num):
     print(i)
     if i == 0:
-        print('Multiplo de 100')
+     print('Multiplo de 100')
     if i == 1:
-        print('Multiplo de 100')
+     print('Multiplo de 100')
