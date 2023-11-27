@@ -9,5 +9,5 @@ while True:
     contador += 1
     populacao_atual = calculo
     if calculo >= populacao_final:
-        print(f'Levou {contador} anos para chegar a {populacao_final} habitantes. ')
+        print(f'Levou cerca de {contador} anos para chegar a {populacao_final} habitantes. ')
         break
