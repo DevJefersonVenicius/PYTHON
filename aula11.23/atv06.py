@@ -1,0 +1,13 @@
+# 6. Faça um programa que peça um nome do usuario. O programa imprime o nome sem suas vogais
+nome = str(input('Digite seu nome: '))
+a = nome.replace('a', '')
+a2 = nome.replace('A', '')
+e = nome.replace('e', '')
+e2 = nome.replace('E', '')
+i = nome.replace('i', '')
+i2 = nome.replace('I', '')
+o = nome.replace('o', '')
+o2 = nome.replace('O', '')
+u = nome.replace('u', '')
+u2 = nome.replace('U', '')
+print(a, e, i, o, u, a2, e2, i2, o2, u2)

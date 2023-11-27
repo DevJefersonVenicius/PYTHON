@@ -2,9 +2,20 @@
 while True:
     temperatura1 = float(input('Digite a primeira temperatura: '))
     temperatura2 = float(input('Digite a segunda temperatura: '))
-    maior = temperatura1 > temperatura2 or temperatura2 > temperatura1
-    menor = temperatura1 < temperatura2 or temperatura2 < temperatura1
-    if maior:
-        print(maior)
-    if menor:
-        print(menor)
+    
+    if temperatura1 > temperatura2:
+        print(f'Essa é a maior temperatura: {temperatura1}')
+    if temperatura2 > temperatura1:
+        print(f'Essa é a maior temperatura: {temperatura2}')
+    if temperatura1 < temperatura2:
+        print(f'Essa é a menor temperatura: {temperatura1}')
+    if temperatura2 < temperatura1:
+        print(f'Essa é a menor temperatura: {temperatura2}')
+    if temperatura1 == temperatura2: 
+        print('As temperaturas são iguais.')
+    
+    saida = input('Digite "SAIR" para sair:  ').lower()
+    if saida == "sair":
+        print(saida.lower())
+        print('Você saiu. ')
+        break
