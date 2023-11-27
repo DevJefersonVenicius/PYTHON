@@ -1,6 +1,6 @@
 # count - funçao é contar quantas vezes um determinado caractere aparece em uma string
 # upper e a lower - dois metodos que deixam a string toda em maiuscula ou a string toda em minuscula
-# finf - busca por uma espressão dentro da frase
+# find - busca por uma espressão dentro da frase
 # replace  - é utilizado para realizar alterações dentro das strings
 # capitalize - deixa a primeira letra da frase maiuscula
 # split - transforma sua string em uma lista
