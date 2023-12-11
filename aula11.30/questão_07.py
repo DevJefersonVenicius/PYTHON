@@ -30,5 +30,5 @@ nova_tupla = ('Maria', 30)
 lista_com_nova_tupla = [nova_tupla] + lista_tuplas
 print(lista_com_nova_tupla)
 
-copia_lista_tuplas = lista_tuplas.copy()
-print(copia_lista_tuplas)
+copia_lista = lista_tuplas.copy()
+print(copia_lista)
