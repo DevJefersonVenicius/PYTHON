@@ -28,7 +28,7 @@ promocao = ['abacate', 'maçã']
 desconto = 0
 for fruta in promocao:
     if fruta in frutas:
-        indice_fruta = frutas.index(fruta)
+        indice_fruta = promocao.index(fruta)
         novo_preco = precos[indice_fruta] / 2 
         desconto += precos[indice_fruta] - novo_preco
         desconto_final = total_compra - desconto
