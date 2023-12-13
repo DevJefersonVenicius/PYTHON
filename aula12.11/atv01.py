@@ -2,37 +2,38 @@
 # Obs.: você deve validar se a palavra tem três ou mais letras
 # Obs.: você deve validar se a frase tem pelo menos 20 palavras
 
-def palavra_completa_frase(palavra, palavra2, palavra3, frase):
-    if len(palavra) < 3 or len(palavra2) < 3 or len(palavra3) < 3:
+def palavra_completa_frase(palavra, frase):
+    
+    if len(palavra) < 3:
         print('As palavras digitadas devem ter 3 ou mais caracteres.')
         return
     
-    elif len(frase) < 20:
+    if len(frase) < 20:
         print('A frase digitada deve ter 20 ou mais caracteres.')
         return
     
-    lista_frase = list(frase)
+    if palavra in frase: 
+        indice_palavra = frase.index(palavra) - 1
+        indice_fim_palavra = indice_palavra + len(palavra) + 1
+        print(f'A palavra "{palavra}" está completa no texto. No intervalo de indices {indice_palavra}:{indice_fim_palavra}')
 
-    if palavra in frase:
-        indice_inicio = frase.find(palavra)
-        indice_fim = indice_inicio + len(palavra) - 1
-        print(f'A palavra "{palavra}" aparece completa na frase e começa no intervalo de índices {indice_inicio}:{indice_fim} Lista frase: {lista_frase}')
-    
     if palavra2 in frase:
-        indice_inicio2 = frase.find(palavra2)
-        indice_fim2 = indice_inicio2 + len(palavra2) - 1
-        print(f'A palavra "{palavra2}" aparece completa na frase e começa no intervalo de índices {indice_inicio2}:{indice_fim2} Lista frase: {lista_frase}')
-   
-    if palavra3 in frase:
-        indice_inicio3 = frase.find(palavra3)
-        indice_fim3 = indice_inicio3 + len(palavra3) - 1
-        print(f'A palavra "{palavra3}" aparece completa na frase e começa no intervalo de índices {indice_inicio3}:{indice_fim3} Lista frase: {lista_frase}')
-
-    if palavra not in frase and palavra2 not in frase and palavra3 not in frase:
+        indice_palavra2 = frase.index(palavra2) - 1
+        indice_fim_palavra2 = indice_palavra2 + len(palavra2) + 1
+        print(f'A palavra "{palavra2}" está completa no texto. No intervalo de indices {indice_palavra2}:{indice_fim_palavra2}')
+    
+    if palavra3 in frase: 
+        indice_palavra3 = frase.index(palavra3) - 1
+        indice_fim_palavra3 = indice_palavra3 + len(palavra3) + 1
+        print(f'A palavra "{palavra3}" está completa no texto. No intervalo de indices {indice_palavra3}:{indice_fim_palavra3}')
+    
+    if palavra not in frase:
         print('Nenhuma das palavras digitadas está na frase.')
 
 palavra = input('Digite uma palavra: ')
 palavra2 = input('Digite uma palavra: ')
 palavra3 = input('Digite uma palavra: ')
+palavras_lista = [palavra, palavra2, palavra3]
+print(palavras_lista)
 frase = input('Digite uma frase: ')
-palavra_completa_frase(palavra, palavra2, palavra3, frase)
+palavra_completa_frase(palavra, frase)
