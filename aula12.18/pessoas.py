@@ -23,6 +23,6 @@ class Professor(Pessoa):
 class Aluno(Pessoa):
     pass
 
-paulo = Professor('Paulo Junior', 29, 1400.00, 'Backend', 1234567890)
+paulo = Professor('Paulo Junior', 29, 2000, 'Back-End', 92934857475)
 
 print(paulo)
